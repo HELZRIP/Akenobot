@@ -31,6 +31,7 @@
 
 ### ╒═══「 Creator Info/Credits 」
 
++  [Dream Garden]https://github.com/helzrip) : Editing Repo
 +  [Xelcius](https://github.com/RimuruDemonlord) : OWNER | DEV
 +  [Hodaka](https://github.com/H0daka) : BASE
 
@@ -42,7 +43,7 @@ This repo was just reamped to suit an Anime-centric community. All original cred
 
 ### ╒═══「 Support Group 」 
 
-The Support group can be reached out to at [Akeno • Support](https://t.me/AkenoSupport0), where you can ask for help about [Akeno Support](Akeno00bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Akeno • Support](https://t.me/Rsupportprobot), where you can ask for help about [Akeno update](akeno_update), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
@@ -53,7 +54,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 	
   <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/Subhradeep00/Akenobot">
+        <a href="https://heroku.com/deploy?template=https://github.com/Helzrip/Akenobot">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
@@ -70,7 +71,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 </p>
 
 ```console
-    ~$ git clone https://github.com/Subhradeep00/Akenobot 
+    ~$ git clone https://github.com/Helzrip/Akenobot 
     ~$ cd Akenobot
     ~$ cp sample_config.py config.py
 ```
