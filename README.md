@@ -8,7 +8,7 @@
     <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
-<a href="https://GitHub.com/RimuruDemonlord">
+<a href="https://GitHub.com/Helzrip">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a>
 <img src="https://img.shields.io/badge/python-3.10.1-green?style=for-the-badge&logo=appveyor" alt="Python Version">
@@ -27,7 +27,7 @@
 + [x] Heroku Deploy
 + [x] Docker/Local Machine
 
-╘══「 Can be found on telegram as [Akeno](https://t.me/Akeno00bot) 」
+╘══「 Can be found on telegram as [Akeno](https://t.me/Akenoprobot) 」
 
 ### ╒═══「 Creator Info/Credits 」
 
