@@ -69,19 +69,19 @@ PM_START_TEXT = """
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• @Akeno00bot Powered By* [𝔸𝕜𝕒𝕥𝕤𝕦𝕜𝕚](https://t.me/Subhradeep00)
+*• @Akeno_probot Powered By* [Dream Garden](https://t.me/Helzrip)
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
                              text="➕️ Add Akeno To Your Chat ➕️",
-                             url="https://t.me/Akeno00bot?startgroup=true"),
+                             url="https://t.me/Akeno_probot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="Anime Flix",
-                             url="https://t.me/Its_Anime_Flix_India"),
+                             text="My Owner",
+                             url="https://t.me/Helzrip"),
                        InlineKeyboardButton(
                              text="About Akeno",
                              callback_data="asuka_"),
@@ -98,15 +98,15 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Akeno Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @AkenoSupport00.
+*‣ Akeno Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On [here](buttonurl://t.me/Rsupportprobot).
 """
 
 REPO_TXT = """
 *‣ Owner:*
-• [𝔸𝕜𝕒𝕥𝕤𝕦𝕜𝕚](t.me/Subhradeep00)
+• [Dream Garden](t.me/Helzrip)
 \n*‣ Note:*
 • If You Want This Bot's Repo You Can Get It From The Button Below.
-• Report Any Kind Of Bugs At [Support](t.me/AkenoSupport00)
+• Report Any Kind Of Bugs At [Support](t.me/Rsupportprobot)
 """
 
 ABOUT3 = """Hello [{}], My name is *𝓐𝓴𝓮𝓷𝓸 𝓗𝓲𝓶𝓮𝓳𝓲𝓶𝓪*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
@@ -133,7 +133,7 @@ For all command use / or !
 """
 
 ACRUISE = """
-💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 Anime_Flix_India !!!
+💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 Rsupportprobot !!!
 
 • 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐀𝐥𝐥 𝐋𝐚𝐭𝐞𝐬𝐭 𝐀𝐧𝐢𝐦𝐞𝐬.
 • 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐧𝐢𝐦𝐞, 𝐋𝐨𝐰 𝐒𝐢𝐳𝐞.
@@ -303,10 +303,10 @@ def start(update: Update, context: CallbackContext):
                   [
                        InlineKeyboardButton(
                              text="Join",
-                             url="t.me/Anime_Flix_India"),
+                             url="t.me/Rsupportprobot"),
                        InlineKeyboardButton(
-                             text="Index",
-                             url="t.me/Anime_Flix_India")
+                             text="Channel",
+                             url="t.me/akeno_update")
                      ]
                 ]
             ),
@@ -324,10 +324,10 @@ def start(update: Update, context: CallbackContext):
                   [
                        InlineKeyboardButton(
                              text="Support",
-                             url="t.me/AkenoSupport00"),
+                             url="t.me/Rsupportprobot"),
                        InlineKeyboardButton(
                              text="Updates",
-                             url="t.me/AkenoSupport0")
+                             url="t.me/Akeno_update")
                      ]
                 ]
             ),
@@ -460,8 +460,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AkenoSupport00"),
-                    InlineKeyboardButton(text="Updates", url="t.me/AkenoSupport0"),
+                    InlineKeyboardButton(text="Support", url="t.me/Rsupportprobot"),
+                    InlineKeyboardButton(text="Updates", url="t.me/Akeno_update"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
@@ -482,8 +482,8 @@ def repo_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/Subhradeep00/Akenobot"),
-                    InlineKeyboardButton(text="Akatsuki", url="t.me/Subhradeep00"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/helzrip"),
+                    InlineKeyboardButton(text="Dream Garden", url="t.me/helzrip"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
@@ -511,11 +511,11 @@ def asuka_callback_data(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Try Inline", switch_inline_query_current_chat=""),
-                    InlineKeyboardButton(text="Developer", url="t.me/Subhradeep00"),
+                    InlineKeyboardButton(text="Developer", url="t.me/helzrip"),
                  ],
                  [
                     InlineKeyboardButton(text="Support", callback_data="about_back"),
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/Subhradeep00/Akenobot"),
+                    InlineKeyboardButton(text="Source Code", url:="t.me/helzrip"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_back")
@@ -567,7 +567,7 @@ def get_help(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text=" Click here", url="https://t.me/AsukaRobot?start=help")
+                  InlineKeyboardButton(text=" Click here", url="https://t.me/Akeno_probot?start=help")
                   ]
                 ]
             ),
@@ -806,7 +806,7 @@ def main():
                   [
                        InlineKeyboardButton(
                              text="Off-Topic",
-                             url="https://t.me/Its_Anime_Flix_India")
+                             url="https://t.me/Deathtenshi")
                      ]
                 ]
             ),
