@@ -31,7 +31,7 @@
 
 ### ╒═══「 Creator Info/Credits 」
 
-+  [Dream Garden]https://github.com/helzrip) : Editing Repo
++  [Dream Garden](https://github.com/helzrip) : Editing Repo
 +  [Xelcius](https://github.com/RimuruDemonlord) : OWNER | DEV
 +  [Hodaka](https://github.com/H0daka) : BASE
 
