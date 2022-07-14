@@ -27,7 +27,7 @@
 + [x] Heroku Deploy
 + [x] Docker/Local Machine
 
-╘══「 Can be found on telegram as [Akeno](https://t.me/Akenoprobot) 」
+╘══「 Can be found on telegram as [Akeno](https://t.me/Akeno_probot) 」
 
 ### ╒═══「 Creator Info/Credits 」
 
