@@ -515,7 +515,7 @@ def asuka_callback_data(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Support", callback_data="about_back"),
-                    InlineKeyboardButton(text="Source Code", url:="t.me/helzrip"),
+                    InlineKeyboardButton(text="Source Code", url="t.me/helzrip"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_back")
