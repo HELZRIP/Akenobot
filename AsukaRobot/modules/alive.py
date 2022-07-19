@@ -56,13 +56,13 @@ async def hmm(yes):
     Asuka += f"• **Telethon Version** - `{version.__version__}`\n"
     Asuka += f"• **PTB Version** - `{telegram.__version__}`\n"
     Asuka += f"• **Pyrogram Version** - `{pyro}`\n"
-    Asuka += f"• **My Master** - [𝔸𝕜𝕒𝕥𝕤𝕦𝕜𝕚](tg://user?id={OWNER_ID})\n\n"
+    Asuka += f"• **My Master** - [Dream Garden](tg://user?id={OWNER_ID})\n\n"
     Asuka += f"Thanks For Adding Me In {yes.chat.title}"
-    BUTTON = [[Button.url("Support Chat", "https://t.me/AkenoSupport00"), Button.url("Updates", "https://t.me/AkenoSupport0")]]
+    BUTTON = [[Button.url("Support Chat", "https://t.me/Rsupportprobot"), Button.url("Updates", "https://t.me/Akeno_update")]]
     on = await borg.send_file(yes.chat_id, file="https://te.legra.ph/file/ce84881970d9514a62fd4.jpg",caption=Asuka, buttons=BUTTON)
 
 @register(pattern=("/repo"))
 async def repo(yes):
     Asuka = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), Click The Button Below To Get My Repo**\n\n"
-    BUTTON = [[Button.url("GitHub", "https://github.com/Subhradeep00/Akenobot"), Button.url("Developer", "https://t.me/Subhradeep00")]]
+    BUTTON = [[Button.url("GitHub", "https://t.me/helzrip"), Button.url("Developer", "https://t.me/helzrip")]]
     await borg.send_file(event.chat_id, file="https://te.legra.ph/file/ce84881970d9514a62fd4.jpg", caption=Akeno, buttons=BUTTON)
