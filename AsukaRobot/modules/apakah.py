@@ -14,6 +14,8 @@ APAKAH_STRING = [
     "Ya gk Tau Kok Tanya Saya",
     "Apa iya?",
     "Tanya aja sama mamak kau tu pler",
+    "Iya kah",
+    "Tanya anak Y-team",
 ]
 
 
@@ -21,6 +23,6 @@ APAKAH_STRING = [
 async def apakah(event):
     quew = event.pattern_match.group(1)
     if not quew:
-        await event.reply("Berikan saya pertanyaan paham 😑😑")
+        await event.reply("Berikan saya pertanyaan paham darling 😑😑")
         return
     await event.reply(random.choice(APAKAH_STRING))
