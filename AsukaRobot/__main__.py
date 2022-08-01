@@ -155,7 +155,7 @@ Asuka_N_IMG = (
 
 Asuka_PIC = "https://te.legra.ph/file/5e16d1ce34d58bca8bdde.jpg"
 
-Asuka_VID = "https://telegra.ph/file/647a5542ff381843ecee1.jpg"
+Asuka_VID = "https://telegra.ph/file/4de2305a9213f9db86125.jpg"
 
 PM_PHOTO = "https://te.legra.ph/file/5e16d1ce34d58bca8bdde.jpg"
 
@@ -316,7 +316,7 @@ def start(update: Update, context: CallbackContext):
         first = update.effective_user.full_name
         chat = update.effective_chat.title
         update.effective_message.reply_video(
-                video="https://telegra.ph/file/647a5542ff381843ecee1.jpg",
+                video="https://telegra.ph/file/4de2305a9213f9db86125.jpg",
                 caption="Yes Darling, I Am Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
