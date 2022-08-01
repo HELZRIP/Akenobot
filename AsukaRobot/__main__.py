@@ -144,7 +144,7 @@ ACRUISE = """
 """
 
 Asuka_IMG = (
-      "https://te.legra.ph/file/ce84881970d9514a62fd4.jpg",
+      "https://telegra.ph/file/647a5542ff381843ecee1.jpg",
 )
 
 TEXXT = "Yes Darling, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
@@ -155,13 +155,13 @@ Asuka_N_IMG = (
 
 Asuka_PIC = "https://te.legra.ph/file/5e16d1ce34d58bca8bdde.jpg"
 
-Asuka_VID = "https://te.legra.ph/file/26b895dc8cce38d00523c.mp4"
+Asuka_VID = "https://telegra.ph/file/647a5542ff381843ecee1.jpg"
 
 PM_PHOTO = "https://te.legra.ph/file/5e16d1ce34d58bca8bdde.jpg"
 
 Asuka_DISPACHER_PIC = "https://te.legra.ph/file/d7a508059169d55277532.jpg"
 
-DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @Subhradeep00"""
+DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @akeno_update"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -316,7 +316,7 @@ def start(update: Update, context: CallbackContext):
         first = update.effective_user.full_name
         chat = update.effective_chat.title
         update.effective_message.reply_video(
-                video="https://te.legra.ph/file/9d0adbff9598076cc1844.mp4",
+                video="https://telegra.ph/file/647a5542ff381843ecee1.jpg",
                 caption="Yes Darling, I Am Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -394,7 +394,7 @@ def help_button(update, context):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="Back", callback_data="help_back"),
-                    InlineKeyboardButton(text='Support', url='https://t.me/AsukaSupport')
+                    InlineKeyboardButton(text='Support', url='https://t.me/Rsupportprobot')
                 ]
                     )
             query.message.edit_caption(
