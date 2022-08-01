@@ -315,8 +315,8 @@ def start(update: Update, context: CallbackContext):
     else:
         first = update.effective_user.full_name
         chat = update.effective_chat.title
-        update.effective_message.reply_vidio(
-                vidio="https://telegra.ph/file/4de2305a9213f9db86125.jpg",
+        update.effective_message.reply_video(
+                video="https://telegra.ph/file/4de2305a9213f9db86125.jpg",
                 caption="Yes Darling, I Am Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
