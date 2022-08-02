@@ -23,11 +23,6 @@ def hentaivid(update: Update, context: CallbackContext):
     update.effective_message.reply_text(random.choice(hentai_strings.HENTAIVID_STRINGS))
 
 
-__help__ = """
- • `/hentaipic`*:* gives you a hentai picture
- • `/hentaivid`*:* gives you a hentai videos
-
-
 HENTAIPIC_HANDLER = DisableAbleCommandHandler("hentaipic", hentaipic)
 HENTAIVID_HANDLER = DisableAbleCommandHandler("hentaivid", hentaivid)
 
