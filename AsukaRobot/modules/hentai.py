@@ -24,7 +24,7 @@ def hentaivid(update: Update, context: CallbackContext):
 
 
 __help__ = """
- • `/hentaipic`*:* asks you a hentai picture
+ • `/hentaipic`*:* gives you a hentai picture
  • `/hentaivid`*:* gives you a hentai videos
 
 
@@ -32,7 +32,7 @@ HENTAIPIC_HANDLER = DisableAbleCommandHandler("hentaipic", hentaipic)
 HENTAIVID_HANDLER = DisableAbleCommandHandler("hentaivid", hentaivid)
 
 dispatcher.add_handler(HENTAIPIC_HANDLER)
-dispatcher.add_handler(HEMTAIVID_HANDLER)
+dispatcher.add_handler(HENTAIVID_HANDLER)
 
 __mod_name__ = "Hentai"
 __command_list__ = [
