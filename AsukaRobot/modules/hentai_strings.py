@@ -1,5 +1,5 @@
 HENTAIPIC_STRINGS = (
-	"",
+	"ara ara yameteh /hentaipic klik again",
 	"",
 	"",
 	"",
@@ -14,7 +14,7 @@ HENTAIPIC_STRINGS = (
 )
 
 HENTAIVID_STRINGS = (
-	"",
+	"ara ara yameteh /hentaivid klik again",
 	"",
 	"",
 	"",
