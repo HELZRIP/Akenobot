@@ -467,15 +467,15 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
-            + "\n╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n",
+            + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/Akeno_update)\n\n"
+            + "\n╘══「 by [Dream Garden](https://t.me/helzrip) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
                              text="Repo",
-                             url="t.me/AsukaSupport")
+                             url="t.me/helzrip")
                      ] 
                 ]
             ),
@@ -488,9 +488,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
+                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/Akeno_update)\n\n"
                 )
-                + "╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n"
+                + "╘══「 by [Dream Garden](https://t.me/helzrip) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -498,7 +498,7 @@ def stats(update, context):
                   [                  
                        InlineKeyboardButton(
                              text="Repo",
-                             url="t.me/AsukaSupport")
+                             url="t.me/helzrip")
                      ] 
                 ]
             ),
