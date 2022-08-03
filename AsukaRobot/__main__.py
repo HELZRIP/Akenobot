@@ -129,7 +129,7 @@ Main commands available :
  ‣ /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-For all command use / or !
+For all command use / or .
 """
 
 ACRUISE = """
@@ -144,7 +144,7 @@ ACRUISE = """
 """
 
 Asuka_IMG = (
-      "https://telegra.ph/file/647a5542ff381843ecee1.jpg",
+      "https://telegra.ph/file/2d1a99d90ee96825495bd.jpg",
 )
 
 TEXXT = "Yes Darling, I Am Alive And Working Fine.\nCheck Out The Buttons Mentioned Below.",
