@@ -1,7 +1,7 @@
 version: '4'
 services:
-  asukarobot:
-    container_name: asuka
+ akenobot:
+    container_name: akeno
     build:
       context: .
       dockerfile: Dockerfile
